@@ -31,7 +31,7 @@ There are three types of RPIP:
 
 - A **Protocol RPIP** describes any change that affects the core Rocket Pool protocol as is currently defined via the smart contract implementations. Protocol RPIPs consist of a design specification and an implementation. Furthermore, Protocol RPIPs can be broken down into the following categories:
     - **Core**: improvements relevant to core protocol design.
-    - **RPRC**: application-level standards and conventions, including non-core contract standards such as [RPRC-3](RPIP-3.md).
+    - **RPRC**: application-level standards and conventions.
 
 - A **Meta RPIP** describes a process surrounding Rocket Pool or proposes a change to (or an event in) a process. They may propose an implementation, but not to Rocket Pool’s codebase. Examples include procedures, guidelines, and changes to the decision-making process (i.e. governance).
 
