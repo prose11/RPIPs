@@ -1,10 +1,11 @@
 ---
 rpip: 1
 title: RPIP Purpose and Guidelines
-status: Living
-type: Meta
+discription: Introduces Rocket Pool Improvement Proposals (RPIPs) and their basic requirements. 
 author: Mike Leach (@VVander), Valdorff (@Valdorff)
 discussions-to: https://dao.rocketpool.net/t/rpip-1-formalizing-protocol-changes/367
+status: Living
+type: Meta
 created: 2022-03-17
 ---
 
@@ -32,7 +33,7 @@ There are three types of RPIP:
     - **Core**: improvements relevant to core protocol design.
     - **RPRC**: application-level standards and conventions, including non-core contract standards such as [RPRC-3](RPIP-3.md).
 
-- A **Meta RPIP** describes a process surrounding Rocket Pool or proposes a change to (or an event in) a process. They may propose an implementation, but not to Rocket Pool’s codebase. Examples include procedures, guidelines, changes to the decision-making process (i.e. governance).
+- A **Meta RPIP** describes a process surrounding Rocket Pool or proposes a change to (or an event in) a process. They may propose an implementation, but not to Rocket Pool’s codebase. Examples include procedures, guidelines, and changes to the decision-making process (i.e. governance).
 
 - An **Informational RPIP** describes a Rocket Pool design issue, or provides general guidelines or information to the Rocket Pool community, but does not propose a new feature.
 
@@ -62,7 +63,7 @@ The following is the standardization process for all RPIPs in all tracks:
 
 **Stagnant** - Any RPIP in Draft or Review which is inactive for too long is moved to Stagnant. An RPIP may be resurrected by simply requesting this from an editor.
 
-**Withdrawn** - The RPIP Author(s) have withdrawn the proposed RPIP. This state has finality and can no longer be resurrected using this RPIP number. If the idea is pursued at later date it is considered a new proposal.
+**Withdrawn** - The RPIP Author(s) have withdrawn the proposed RPIP. This state has finality and can no longer be resurrected using this RPIP number. If the idea is pursued at a later date it is considered a new proposal.
 
 **Living** - A special status for RPIP that are designed to be continually updated and not reach a state of finality. This includes most notably RPIP-1.
 
@@ -70,7 +71,7 @@ Only Final and Living RPIPs are eligible for official adoption.
 
 ## What belongs in a successful RPIP?
 
-An RPIP must must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must not complicate the protocol unduly.
+An RPIP must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must not complicate the protocol unduly.
 
 ## RPIP Formats and Templates
 
@@ -110,9 +111,9 @@ Headers requiring dates will always do so in the format of ISO 8601 (yyyy-mm-dd)
 
 The `author` header lists the names, email addresses or usernames of the authors/owners of the RPIP. Those who prefer anonymity may use a username only, or a first name and a username. The format of the `author` header value is:
 
-    Random J. User (GH: githubname | Discord: discordname) <address@dom.ain>
+    Random J. User (githubname) <address@dom.ain>
 
-Authors are not required to provide a GitHub username, Discord tag, or email; however, at least one author must provide a GitHub username in order to get notified on change requests and to approve or reject them.
+Authors are not required to provide a GitHub username, Discord tag, or email; however, at least one author must provide a GitHub username in order to get notified of change requests and to approve or reject them.
 
 ## Linking to External Resources
 
